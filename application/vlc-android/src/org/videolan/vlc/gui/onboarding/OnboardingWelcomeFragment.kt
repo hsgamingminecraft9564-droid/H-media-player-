@@ -33,6 +33,7 @@ class OnboardingWelcomeFragment : OnboardingFragment() {
     }
 
     private fun startGoogleSignIn() {
+        if (android.os.Build.VERSION.SDK_INT < 23) return
         val clientId = getString(R.string.hmp_google_web_client_id)
         if (clientId.startsWith("REPLACE_WITH")) {
             Toast.makeText(requireContext(), R.string.hmp_google_not_configured, Toast.LENGTH_LONG).show()

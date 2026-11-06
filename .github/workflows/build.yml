@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,7 +26,22 @@ jobs:
       - name: Create signing key
         run: keytool -genkeypair -keystore "$PWD/h.jks" -alias hkey -keyalg RSA -keysize 2048 -validity 10000 -storepass hmedia123 -keypass hmedia123 -dname "CN=H Media Player"
       - name: Build
-        run: gradle :application:app:assembleSignedRelease --no-daemon -PkeyStoreFile="$PWD/h.jks" -Pstorealias=hkey -Pstorepwd=hmedia123
+        run: |
+          set -o pipefail
+          gradle :application:app:assembleSignedRelease --no-daemon -PkeyStoreFile="$PWD/h.jks" -Pstorealias=hkey -Pstorepwd=hmedia123 2>&1 | tee build.log
+      - name: Save error summary
+        if: failure()
+        run: |
+          mkdir -p /tmp/bl
+          { echo "== ERRORS"; grep -n -E "^e: |error:|What went wrong|FAILURE:|Execution failed|Manifest merger|AAPT|Duplicate|Caused by|uses-sdk" build.log | head -60; echo; echo "== LAST 50 LINES"; tail -50 build.log; } > /tmp/bl/last-build.txt
+          cd /tmp/bl
+          git init -q
+          git checkout -q -b buildlogs
+          git config user.name "build-bot"
+          git config user.email "bot@example.com"
+          git add last-build.txt
+          git commit -q -m "build error summary"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" buildlogs
       - uses: actions/upload-artifact@v4
         with:
           name: H-Media-Player-apk
