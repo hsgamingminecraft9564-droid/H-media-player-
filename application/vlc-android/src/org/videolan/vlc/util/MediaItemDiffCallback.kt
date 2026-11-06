@@ -25,6 +25,6 @@ class MediaItemDiffCallback<T : MediaLibraryItem> : DiffUtilAdapter.DiffCallback
     }
 
     companion object {
-        private const val TAG = "VLC/MediaItemDiffCallback"
+        private const val TAG = "HMP/MediaItemDiffCallback"
     }
 }

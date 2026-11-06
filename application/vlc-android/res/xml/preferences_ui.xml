@@ -13,6 +13,11 @@
             android:entries="@array/daynight_mode_entries"
             android:entryValues="@array/daynight_mode_values"/>
 
+    <Preference
+            android:key="hmp_font_style"
+            android:title="@string/hmp_font_style_title"
+            android:summary="@string/hmp_font_style_summary" />
+
     <CheckBoxPreference
             app:singleLineTitle="false"
             android:key="tv_ui"

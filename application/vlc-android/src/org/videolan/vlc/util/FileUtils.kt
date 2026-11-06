@@ -73,7 +73,7 @@ import java.util.zip.ZipOutputStream
 
 object FileUtils {
 
-    const val TAG = "VLC/FileUtils"
+    const val TAG = "HMP/FileUtils"
 
     interface Callback {
         fun onResult(success: Boolean)

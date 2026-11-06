@@ -21,7 +21,7 @@ import org.videolan.vlc.getSelectedVideoTrack
 import java.math.BigDecimal
 import java.math.RoundingMode
 
-private const val TAG = "VLC/FrameRateMatch"
+private const val TAG = "HMP/FrameRateMatch"
 private const val SHORT_VIDEO_LENGTH = 300000
 
 class FrameRateManager(val activity: FragmentActivity, val service: PlaybackService) {

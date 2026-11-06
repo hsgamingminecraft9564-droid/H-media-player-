@@ -35,7 +35,7 @@ import org.videolan.vlc.R
 import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
 
-private const val TAG = "VLC/AccessControl"
+private const val TAG = "HMP/AccessControl"
 
 data class CertInfo(val name: String, val keys: List<String>)
 data class AuthEntry(val approved: Boolean, val callingPackage: String?, val desc: String)

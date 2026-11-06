@@ -67,7 +67,7 @@ import java.text.DecimalFormat
 
 
 object BitmapUtil {
-    const val TAG = "VLC/UiTools/BitmapUtil"
+    const val TAG = "HMP/UiTools/BitmapUtil"
 
 
     fun getPictureFromCache(media: MediaWrapper): Bitmap? {
@@ -141,7 +141,7 @@ object BitmapUtil {
         if (enableTracing) {
             val endTime = System.currentTimeMillis()
             val ratio = DecimalFormat("###.#%").format((1 - (bos.size().toDouble() / bmp.byteCount.toDouble())))
-            Log.d("VLC/ArtworkProvider", "encImage() Time: ${timestampProvider?.let { it() } ?: ""} Duration: " + (endTime - startTime) + "ms Comp. Ratio: $ratio Thread: ${Thread.currentThread().name}")
+            Log.d("HMP/ArtworkProvider", "encImage() Time: ${timestampProvider?.let { it() } ?: ""} Duration: " + (endTime - startTime) + "ms Comp. Ratio: $ratio Thread: ${Thread.currentThread().name}")
         }
         return bos.toByteArray()
     }

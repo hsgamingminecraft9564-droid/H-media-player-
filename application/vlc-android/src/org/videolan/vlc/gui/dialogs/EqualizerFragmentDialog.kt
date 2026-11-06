@@ -406,7 +406,7 @@ class EqualizerFragmentDialog : VLCBottomSheetDialogFragment(), Slider.OnChangeL
 
 
     companion object {
-        const val TAG = "VLC/EqualizerFragmentDialog"
+        const val TAG = "HMP/EqualizerFragmentDialog"
 
         private const val TYPE_PRESET = 0
         private const val TYPE_CUSTOM = 1

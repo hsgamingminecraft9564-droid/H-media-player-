@@ -59,7 +59,7 @@ import org.videolan.vlc.viewmodels.PlaylistModel
 const val UPDATE_PROGRESS = "update_progress"
 open class BaseBrowserAdapter(val browserContainer: BrowserContainer<MediaLibraryItem>, var sort:Int = Medialibrary.SORT_FILENAME, var asc:Boolean = true, val forMain:Boolean = true) : DiffUtilAdapter<MediaLibraryItem, BaseBrowserAdapter.ViewHolder<ViewDataBinding>>(), MultiSelectAdapter<MediaLibraryItem>, FastScroller.SeparatedAdapter {
 
-    protected val TAG = "VLC/BaseBrowserAdapter"
+    protected val TAG = "HMP/BaseBrowserAdapter"
 
     val multiSelectHelper: MultiSelectHelper<MediaLibraryItem> = MultiSelectHelper(this, UPDATE_SELECTION)
 

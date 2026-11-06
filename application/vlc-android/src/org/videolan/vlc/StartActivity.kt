@@ -90,7 +90,7 @@ import videolan.org.commontools.TV_CHANNEL_SCHEME
 
 private const val SEND_CRASH_RESULT = 0
 private const val PROPAGATE_RESULT = 1
-private const val TAG = "VLC/StartActivity"
+private const val TAG = "HMP/StartActivity"
 class StartActivity : FragmentActivity() {
 
     private val idFromShortcut: Int

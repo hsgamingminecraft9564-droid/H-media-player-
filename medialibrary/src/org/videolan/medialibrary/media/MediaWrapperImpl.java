@@ -38,7 +38,7 @@ import java.util.Locale;
 
 @SuppressWarnings("JniMissingFunction")
 public class MediaWrapperImpl extends MediaWrapper {
-    public final static String TAG = "VLC/MediaWrapperImpl";
+    public final static String TAG = "HMP/MediaWrapperImpl";
 
     public MediaWrapperImpl(long id, String mrl, long time, float position, long length, int type, String title,
                             String filename,long artistId, long albumArtistId, String artist, String genre, long albumId, String album, String albumArtist,

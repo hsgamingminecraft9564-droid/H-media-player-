@@ -112,7 +112,7 @@ import org.videolan.vlc.util.isSchemeStreaming
 class MediaSessionBrowser {
 
     companion object {
-        private const val TAG = "VLC/MediaSessionBrowser"
+        private const val TAG = "HMP/MediaSessionBrowser"
 
         // Root item
         // MediaIds are all strings. Maintain in uri parsable format.

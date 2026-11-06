@@ -48,7 +48,7 @@ open class GridFragment : VerticalGridSupportFragment(), BrowserFragmentInterfac
 
     companion object {
 
-        protected const val TAG = "VLC/GridFragment"
+        protected const val TAG = "HMP/GridFragment"
 
         private const val NUM_COLUMNS = 4
     }

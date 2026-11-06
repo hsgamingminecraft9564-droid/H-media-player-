@@ -156,7 +156,7 @@ import org.videolan.vlc.viewmodels.browser.BrowserModel
 import java.io.File
 import java.util.LinkedList
 
-private const val TAG = "VLC/BaseBrowserFragment"
+private const val TAG = "HMP/BaseBrowserFragment"
 
 internal const val KEY_MEDIA = "key_media"
 internal const val KEY_JUMP_TO = "key_jump_to"

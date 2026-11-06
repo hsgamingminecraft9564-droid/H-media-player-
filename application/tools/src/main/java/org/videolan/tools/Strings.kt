@@ -52,7 +52,7 @@ import java.util.Locale
 import kotlin.math.log10
 import kotlin.math.pow
 
-private const val TAG = "VLC/UiTools/Strings"
+private const val TAG = "HMP/UiTools/Strings"
 
 fun String.stripTrailingSlash() = if (endsWith("/") && length > 1) dropLast(1) else this
 fun String.addTrailingSlashIfNeeded() = if (endsWith("/")) this else "$this/"

@@ -212,6 +212,6 @@ class PopupLayout : ConstraintLayout, ScaleGestureDetector.OnScaleGestureListene
     }
 
     companion object {
-        private const val TAG = "VLC/PopupView"
+        private const val TAG = "HMP/PopupView"
     }
 }

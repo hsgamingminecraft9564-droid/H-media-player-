@@ -90,6 +90,6 @@ class MediaScrapingTvActivity : BaseTvActivity() {
 
     companion object {
         const val MEDIA: String = "MEDIA"
-        private const val TAG = "VLC/MediaScrapingTvActivity"
+        private const val TAG = "HMP/MediaScrapingTvActivity"
     }
 }

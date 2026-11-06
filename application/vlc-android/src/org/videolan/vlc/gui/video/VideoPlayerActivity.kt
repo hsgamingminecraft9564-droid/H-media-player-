@@ -2570,7 +2570,7 @@ open class VideoPlayerActivity : AppCompatActivity(), PlaybackService.Callback, 
 
     companion object {
 
-        private const val TAG = "VLC/VideoPlayerActivity"
+        private const val TAG = "HMP/VideoPlayerActivity"
 
         private val ACTION_RESULT = "player.result".buildPkgString()
         private const val EXTRA_POSITION = "extra_position"

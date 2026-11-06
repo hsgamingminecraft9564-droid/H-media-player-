@@ -231,7 +231,7 @@ class SecondaryActivity : ContentActivity(), IDialogManager {
     }
 
     companion object {
-        const val TAG = "VLC/SecondaryActivity"
+        const val TAG = "HMP/SecondaryActivity"
 
         const val ACTIVITY_RESULT_SECONDARY = 3
 

@@ -33,7 +33,7 @@ class PinCodeDelegate : BaseHeadlessFragment() {
     }
 
     companion object {
-        internal const val TAG = "VLC/PinCode"
+        internal const val TAG = "HMP/PinCode"
         val pinUnlocked = MutableLiveData(false)
     }
 }

@@ -151,7 +151,7 @@ import java.util.Locale
 import java.util.concurrent.atomic.AtomicBoolean
 
 
-private const val TAG = "VLC/HttpSharingServer"
+private const val TAG = "HMP/HttpSharingServer"
 private const val NOW_PLAYING_TIMEOUT = 500
 
 class RemoteAccessServer(private val context: Context) : PlaybackService.Callback, IPathOperationDelegate by PathOperationDelegate(), ICallBackHandler by CallBackDelegate()  {

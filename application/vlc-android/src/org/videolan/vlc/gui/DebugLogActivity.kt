@@ -161,6 +161,6 @@ class DebugLogActivity : AppCompatActivity(), DebugLogService.Client.Callback {
     }
 
     companion object {
-        const val TAG = "VLC/DebugLogActivity"
+        const val TAG = "HMP/DebugLogActivity"
     }
 }

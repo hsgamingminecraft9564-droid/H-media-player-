@@ -152,7 +152,7 @@ import org.videolan.vlc.viewmodels.PlaylistModel
 import java.text.DateFormat.getTimeInstance
 import kotlin.math.absoluteValue
 
-private const val TAG = "VLC/AudioPlayer"
+private const val TAG = "HMP/AudioPlayer"
 private const val SEARCH_TIMEOUT_MILLIS = 10000L
 
 class AudioPlayer : Fragment(), PlaylistAdapter.IPlayer, TextWatcher, IAudioPlayerAnimator by AudioPlayerAnimator() {

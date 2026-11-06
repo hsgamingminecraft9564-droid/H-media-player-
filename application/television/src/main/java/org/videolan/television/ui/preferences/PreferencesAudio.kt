@@ -63,7 +63,7 @@ import java.text.DecimalFormat
 import java.text.DecimalFormatSymbols
 import java.util.Locale
 
-private const val TAG = "VLC/PreferencesAudio"
+private const val TAG = "HMP/PreferencesAudio"
 private const val FILE_PICKER_RESULT_CODE = 10000
 
 @Suppress("DEPRECATION")

@@ -246,7 +246,7 @@ class NetworkServerDialog : VLCBottomSheetDialogFragment(), AdapterView.OnItemSe
 
     companion object {
 
-        private const val TAG = "VLC/NetworkServerDialog"
+        private const val TAG = "HMP/NetworkServerDialog"
 
         const val FTP_DEFAULT_PORT = "21"
         const val FTPS_DEFAULT_PORT = "990"

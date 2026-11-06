@@ -138,7 +138,7 @@ class MediaScrapingTvItemAdapter(
 
     companion object {
 
-        private const val TAG = "VLC/MediaTvItemAdapter"
+        private const val TAG = "HMP/MediaTvItemAdapter"
         /**
          * Awful hack to workaround the [PagedListAdapter] not keeping track of notifyItemMoved operations
          */

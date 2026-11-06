@@ -64,7 +64,7 @@ import org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
 import java.io.File
 import java.io.IOException
 
-private const val TAG = "VLC/AppSetupDelegate"
+private const val TAG = "HMP/AppSetupDelegate"
 
 interface AppDelegate {
     val appContextProvider : AppContextProvider

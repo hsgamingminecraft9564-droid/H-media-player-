@@ -118,7 +118,7 @@ class Logcat : Runnable {
     }
 
     companion object {
-        const val TAG = "VLC/UiTools/Logcat"
+        const val TAG = "HMP/UiTools/Logcat"
 
         /**
          * Writes the current app logcat to a file.

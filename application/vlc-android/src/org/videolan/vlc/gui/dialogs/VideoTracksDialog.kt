@@ -219,7 +219,7 @@ class VideoTracksDialog : VLCBottomSheetDialogFragment() {
 
     companion object : DependencyProvider<Any>() {
 
-        const val TAG = "VLC/SavePlaylistDialog"
+        const val TAG = "HMP/SavePlaylistDialog"
     }
 
     enum class TrackType {

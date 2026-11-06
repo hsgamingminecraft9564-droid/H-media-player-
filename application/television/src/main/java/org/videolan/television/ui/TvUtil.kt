@@ -77,7 +77,7 @@ import org.videolan.vlc.viewmodels.browser.BrowserModel
 
 object TvUtil {
 
-    private const val TAG = "VLC/TvUtil"
+    private const val TAG = "HMP/TvUtil"
 
     var diffCallback: DiffCallback<MediaLibraryItem> = object : DiffCallback<MediaLibraryItem>() {
         override fun areItemsTheSame(oldItem: MediaLibraryItem, newItem: MediaLibraryItem): Boolean {

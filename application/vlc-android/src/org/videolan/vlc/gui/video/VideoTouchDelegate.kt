@@ -115,7 +115,7 @@ class VideoTouchDelegate(private val player: VideoPlayerActivity,
     private val gestureSafetyMargin = 24.dp.toFloat()
 
     companion object {
-        private const val TAG = "VLC/VideoTouchDelegate"
+        private const val TAG = "HMP/VideoTouchDelegate"
         private const val SEEK_TIMEOUT = 750L
     }
 

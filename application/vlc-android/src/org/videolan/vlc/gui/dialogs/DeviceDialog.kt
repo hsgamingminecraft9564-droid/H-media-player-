@@ -15,7 +15,7 @@ import org.videolan.vlc.databinding.DialogExtDeviceBinding
 import org.videolan.vlc.gui.helpers.MedialibraryUtils
 import org.videolan.resources.EXTRA_PATH
 
-private const val TAG = "VLC/DeviceDialog"
+private const val TAG = "HMP/DeviceDialog"
 
 class DeviceDialog : DialogFragment() {
 

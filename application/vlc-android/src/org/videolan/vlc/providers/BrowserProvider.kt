@@ -82,7 +82,7 @@ import org.videolan.vlc.util.isBrowserMedia
 import org.videolan.vlc.util.isMedia
 import java.io.File
 
-const val TAG = "VLC/BrowserProvider"
+const val TAG = "HMP/BrowserProvider"
 
 abstract class BrowserProvider(val context: Context, val dataset: LiveDataset<MediaLibraryItem>, val url: String?, var sort:Int, var desc:Boolean) : CoroutineScope, HeaderProvider() {
 

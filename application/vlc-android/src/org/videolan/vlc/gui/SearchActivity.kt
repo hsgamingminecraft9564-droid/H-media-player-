@@ -119,6 +119,6 @@ open class SearchActivity : BaseActivity(), TextWatcher, TextView.OnEditorAction
 
     companion object {
 
-        const val TAG = "VLC/SearchActivity"
+        const val TAG = "HMP/SearchActivity"
     }
 }

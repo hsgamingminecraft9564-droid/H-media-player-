@@ -100,6 +100,7 @@ class OnboardingActivity : AppCompatActivity(), OnboardingFragmentListener {
         findViewById<View>(R.id.skip_button).setOnClickListener { onDone() }
         nextButton = findViewById(R.id.next_button)
         nextButton.setOnClickListener { onNext() }
+        nextButton.visibility = if (fragmentName == FragmentName.WELCOME) View.GONE else View.VISIBLE
     }
 
     override fun onDestroy() {

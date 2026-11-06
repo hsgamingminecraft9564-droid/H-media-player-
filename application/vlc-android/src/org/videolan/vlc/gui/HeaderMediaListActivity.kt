@@ -677,7 +677,7 @@ open class HeaderMediaListActivity : AudioPlayerContainerActivity(), IEventsHand
     companion object {
 
         const val ARTIST_FROM_ALBUM = "ARTIST_FROM_ALBUM"
-        const val TAG = "VLC/PlaylistActivity"
+        const val TAG = "HMP/PlaylistActivity"
     }
 
     override fun getFilterQuery() = viewModel.filterQuery

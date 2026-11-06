@@ -54,7 +54,7 @@ import org.videolan.vlc.media.isSD
 import org.videolan.vlc.util.*
 import org.videolan.vlc.viewmodels.mobile.VideoGroupingType
 
-private const val TAG = "VLC/VideoListAdapter"
+private const val TAG = "HMP/VideoListAdapter"
 
 class VideoListAdapter(private var isSeenMediaMarkerVisible: Boolean, private var hideProgress:Boolean
 ) : PagedListAdapter<MediaLibraryItem, VideoListAdapter.ViewHolder>(VideoItemDiffCallback), FastScroller.SeparatedAdapter,

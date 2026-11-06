@@ -50,13 +50,15 @@ import android.util.LruCache
 import videolan.org.commontools.BuildConfig
 
 object BitmapCache {
-    private const val TAG = "VLC/BitmapCache"
+    private const val TAG = "HMP/BitmapCache"
     private val memCache: LruCache<String, Bitmap>
 
     init {
 
         // Use 20% of the available memory for this memory cache.
-        val cacheSize = Runtime.getRuntime().maxMemory() / 5
+        // H Media Player: low-memory devices get a smaller bitmap cache so the app stays responsive.
+        val maxMem = Runtime.getRuntime().maxMemory()
+        val cacheSize = maxMem / (if (maxMem < 256L * 1024 * 1024) 10 else 5)
 
         if (BuildConfig.DEBUG)
             Log.i(TAG, "LRUCache size set to " + cacheSize.readableSize())

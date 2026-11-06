@@ -112,6 +112,6 @@ internal constructor(private val audioPlayerActivity: AudioPlayerActivity, val m
     }
 
     companion object {
-        const val TAG = "VLC/PlaylistAdapter"
+        const val TAG = "HMP/PlaylistAdapter"
     }
 }

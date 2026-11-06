@@ -231,11 +231,11 @@
     <string name="hold_to_stop">Coinnigh greim air chun stad</string>
 
     <!-- About -->
-    <string name="app_name_full">VLC i gcomhair Android</string>
+    <string name="app_name_full">H Media Player i gcomhair Android</string>
     <string name="revision">Leasú</string>
     <string name="about">Maidir le</string>
     <string name="authors">Údair</string>
-    <string name="vlc_authors">agus Údáir VLC.</string>
+    <string name="vlc_authors">agus Údáir H Media Player.</string>
     <string name="is_compiled_by">Tiomsaithe ag</string>
     <string name="sources">An cód foinseach</string>
     <string name="libraries">Leabharlanna</string>
@@ -338,8 +338,8 @@
     <string name="replaygain_track">Rian</string>
     <string name="replaygain_album">Albam</string>
     <string name="aout">Aschur fuaime</string>
-    <string name="aout_summary">Athraigh an modh a bhaineann VLC feidhm as chun fuaim a aschur</string>
-    <string name="audio_ducking_title">Ísligh airde fuaime VLC nuair a fhaightear fógraí</string>
+    <string name="aout_summary">Athraigh an modh a bhaineann H Media Player feidhm as chun fuaim a aschur</string>
+    <string name="audio_ducking_title">Ísligh airde fuaime H Media Player nuair a fhaightear fógraí</string>
     <string name="audio_ducking_summary">Cabhraíonn sé sin chun fógraí fuaime, treoracha tiomána, nó caint ó chúntóir a chloisteáil</string>
     <string name="casting_category">Teilgean</string>
     <string name="remote_access">Rochtain chianda</string>
@@ -391,8 +391,8 @@
     <string name="enable_verbose_mode">Foclach</string>
     <string name="clear_log">Glan an t-oireas</string>
     <string name="copy_to_clipboard">Macasamhlaigh chuig an ngearrthaisce</string>
-    <string name="serious_crash">Faraor, tharla botún tromchúiseach agus bhí ar VLC dúnadh.</string>
-    <string name="restart_vlc">Atosaigh VLC</string>
+    <string name="serious_crash">Faraor, tharla botún tromchúiseach agus bhí ar H Media Player dúnadh.</string>
+    <string name="restart_vlc">Atosaigh H Media Player</string>
     <string name="delete_sub_title">Scrios an fotheideal</string>
     <string name="delete_sub_message">An mian leat an fotheideal sin a scriosadh?</string>
     <string name="download_subtitle_title">Íosluchtaigh an Fotheideal</string>
@@ -431,28 +431,28 @@
     <string name="music_now_playing">Á seinm faoi láthair</string>
 
     <!-- Widget -->
-    <string name="widget_name_w">Giuirléid Bhán VLC</string>
-    <string name="widget_name_b">Giuirléid Dhubh VLC</string>
-    <string name="widget_name_mini_player">Mionsheinnteoir VLC</string>
+    <string name="widget_name_w">Giuirléid Bhán H Media Player</string>
+    <string name="widget_name_b">Giuirléid Dhubh H Media Player</string>
+    <string name="widget_name_mini_player">Mionsheinnteoir H Media Player</string>
     <string name="widget_old_text">Tá ár gcuid giuirléidí nuashonraithe againn!</string>
     <string name="whats_next">Cad é an chéad rud eile?</string>
     <string name="click_here">Brúigh anseo chun tuilleadh eolais a chur air.</string>
-    <string name="allow_storage_access_title">Lig do VLC físchomhaid agus comhaid fhuaime a rochtain</string>
-    <string name="allow_storage_access_description">Caithfidh tú cead a thabhairt do VLC na comhaid mheáin ar an ngléas seo a rochtain.</string>
-    <string name="partial_content">Ní féidir le VLC gach ceann do de chuid comhaid a rochtain</string>
+    <string name="allow_storage_access_title">Lig do H Media Player físchomhaid agus comhaid fhuaime a rochtain</string>
+    <string name="allow_storage_access_description">Caithfidh tú cead a thabhairt do H Media Player na comhaid mheáin ar an ngléas seo a rochtain.</string>
+    <string name="partial_content">Ní féidir le H Media Player gach ceann do de chuid comhaid a rochtain</string>
     <string name="never_ask_again">Ná fiafraigh riamh arís</string>
     <string name="never_show_again">Ná taispeáin é seo arís, fiú do leaganacha eile amach anseo.</string>
-    <string name="allow_settings_access_ringtone_title">Lig do VLC an ghlaofhuaim a shocrú</string>
-    <string name="allow_settings_access_ringtone_description">Ní mór duit cead a thabhairt do VLC chun an t-amhrán sin a shocrú mar do ghlaofhuaim.</string>
-    <string name="allow_settings_access_brightness_title">Ceadaigh do VLC an mód gile a athrú</string>
-    <string name="allow_draw_overlays_title">Lig don seinnteoir VLC teacht aníos thar fheidhmchláir eile</string>
-    <string name="allow_pip">Lig don seinnteoir VLC an Pictiúr laistigh de Phictiúr a thosú</string>
+    <string name="allow_settings_access_ringtone_title">Lig do H Media Player an ghlaofhuaim a shocrú</string>
+    <string name="allow_settings_access_ringtone_description">Ní mór duit cead a thabhairt do H Media Player chun an t-amhrán sin a shocrú mar do ghlaofhuaim.</string>
+    <string name="allow_settings_access_brightness_title">Ceadaigh do H Media Player an mód gile a athrú</string>
+    <string name="allow_draw_overlays_title">Lig don seinnteoir H Media Player teacht aníos thar fheidhmchláir eile</string>
+    <string name="allow_pip">Lig don seinnteoir H Media Player an Pictiúr laistigh de Phictiúr a thosú</string>
     <string name="permission_ask_again">Tabhair cead</string>
     <string name="pick_file">Roghnaigh comhad</string>
     <string name="permission_not_granted">Níor tugadh cead</string>
-    <string name="exit_app">Dún VLC</string>
-    <string name="exit_app_msg">An bhfuil tú cinnte gur mian leat scoir ó VLC?</string>
-    <string name="widget_explanation_title">Giuirléidí VLC</string>
+    <string name="exit_app">Dún H Media Player</string>
+    <string name="exit_app_msg">An bhfuil tú cinnte gur mian leat scoir ó H Media Player?</string>
+    <string name="widget_explanation_title">Giuirléidí H Media Player</string>
     <!-- Plugins -->
     <string name="plugins">Breiseáin</string>
     <string name="download_on_device">Íosluchtaigh</string>
@@ -482,7 +482,7 @@
     <string name="resume">Atosaigh</string>
     <string name="length">Fad</string>
     <string name="ml_external_storage_title">Stóras seachtrach nua braite</string>
-    <string name="ml_external_storage_msg">An mian leat go gcuirfidh VLC an gléas 1%1$s a chur le do leabharlann mheán?</string>
+    <string name="ml_external_storage_msg">An mian leat go gcuirfidh H Media Player an gléas 1%1$s a chur le do leabharlann mheán?</string>
     <string name="ml_external_storage_accept">Is mian</string>
     <string name="ml_external_storage_decline">Ní mian</string>
     <string name="auto_last_added_media">An ceann deireanach curtha leis</string>
@@ -554,14 +554,14 @@
     <string name="video_save_clone_mode">Gníomhachtaigh go huathoibríoch an mód clóin?</string>
     <string name="video_remote_disable">Dúblaigh an scáileán</string>
     <string name="removed_from_playlist_anonymous">Mír(eanna) a baineadh ón seinmliosta</string>
-    <string name="welcome_title">Fáilte go VLC!</string>
+    <string name="welcome_title">Fáilte go H Media Player!</string>
     <string name="welcome_subtitle">An seinnteoir meán saor in aisce agus le foinse oscailte</string>
-    <string name="permission_media">Tá cead uait ag teastáil ó VLC chun meáin ar do ghléas a rochtain</string>
-    <string name="medialibrary_scan_explanation">Is féidir le VLC do ghléas a scrúdú go huathoibríoch chun do bhailiúchán meán a eagrú.</string>
+    <string name="permission_media">Tá cead uait ag teastáil ó H Media Player chun meáin ar do ghléas a rochtain</string>
+    <string name="medialibrary_scan_explanation">Is féidir le H Media Player do ghléas a scrúdú go huathoibríoch chun do bhailiúchán meán a eagrú.</string>
     <string name="done">Déanta</string>
-    <string name="onboarding_all_set">Tá VLC faoi réir!</string>
-    <string name="daynight_system_explanation">Tiontóidh VLC go huathoibríoch chuig an mód dorcha de réir mar atá sin socraithe sa chóras</string>
-    <string name="daynight_legacy_explanation">Tiontóidh VLC go huathoibríoch chuig an mód oíche ag an am cuí</string>
+    <string name="onboarding_all_set">Tá H Media Player faoi réir!</string>
+    <string name="daynight_system_explanation">Tiontóidh H Media Player go huathoibríoch chuig an mód dorcha de réir mar atá sin socraithe sa chóras</string>
+    <string name="daynight_legacy_explanation">Tiontóidh H Media Player go huathoibríoch chuig an mód oíche ag an am cuí</string>
     <string name="light_theme">An téama geal</string>
     <string name="add">Cuir leis</string>
     <string name="add_to_new_playlist">Cuir leis an seinmliosta nua é</string>
@@ -583,9 +583,9 @@
     <string name="display_in_grid">Taispeáin mar ghreille</string>
     <string name="send_crash_warning">Déan cinnte aon sonraí íogaire nach mian leat a sheoladh a bhaint as.</string>
     <string name="include_medialib">Cuir do bhunachar sonraí san áireamh</string>
-    <string name="vlc_reporter">Tuairisceoir VLC</string>
-    <string name="welcome_beta_title">VLC Béite</string>
-    <string name="welcome_beta_description">Fáilte go ríomhchlár béite VLC.\nTabhair do d\'aire go bhféadfadh fadhbanna a bheith sa leagan seo.</string>
+    <string name="vlc_reporter">Tuairisceoir H Media Player</string>
+    <string name="welcome_beta_title">H Media Player Béite</string>
+    <string name="welcome_beta_description">Fáilte go ríomhchlár béite H Media Player.\nTabhair do d\'aire go bhféadfadh fadhbanna a bheith sa leagan seo.</string>
     <string name="welcome_beta_description_bugs">Má thugann tú fadhb faoi deara, déan í a thuairisciú inár gclár plé nó sa lorgaire fabhtacha.</string>
     <string name="send">Seol</string>
     <string name="send_crash_action_title">Cad is mian leat a dhéanamh?</string>
@@ -672,10 +672,10 @@
     <string name="sub_result_by_name_season">Séasúr %s</string>
     <string name="sub_result_by_name_episode">Eipeasóid %s</string>
     <string name="sub_result_by_file">Torthaí do do chomhad</string>
-    <string name="donate">Cabhraigh le VLC</string>
-    <string name="donate_desc">Tacaigh leis na daoine atá ag tógáil VLC go deonach</string>
+    <string name="donate">Cabhraigh le H Media Player</string>
+    <string name="donate_desc">Tacaigh leis na daoine atá ag tógáil H Media Player go deonach</string>
     <string name="donate_send">Cuir tús le m\'urraíocht</string>
-    <string name="tip_jar">Cabhraigh le VLC</string>
+    <string name="tip_jar">Cabhraigh le H Media Player</string>
     <string name="thank_you">Go raibh maith agat</string>
     <string name="donate_again">Déan urraíocht arís ar an bhfeidhmchlár</string>
 
@@ -712,7 +712,7 @@
     <string name="delete_forever">Scrios go buan é</string>
     <string name="show">Taispeáin</string>
     <string name="optional_features">Gnéithe roghnacha</string>
-    <string name="start_vlc">Tosaigh VLC</string>
+    <string name="start_vlc">Tosaigh H Media Player</string>
     <string name="jump_delay_summary">%s soicind</string>
     <string name="move_up">Bog suas é</string>
     <string name="move_down">Bog síos é</string>
@@ -742,7 +742,7 @@
     <string name="widget_background">Cúlra</string>
     <string name="widget_foreground">Tulra</string>
     <string name="widget_show_cover">Taispeáin an clúdach</string>
-    <string name="open_vlc">Oscail VLC</string>
+    <string name="open_vlc">Oscail H Media Player</string>
     <string name="playing">Ag seinm</string>
     <string name="disable_track">Díchumasaigh an rian</string>
     <string name="ascending">Ag dul suas</string>

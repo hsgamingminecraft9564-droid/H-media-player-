@@ -92,7 +92,7 @@ import org.videolan.vlc.gui.video.VideoPlayerActivity
 import org.videolan.vlc.reloadLibrary
 import org.videolan.vlc.util.Permissions
 
-private const val TAG = "VLC/MainTvFragment"
+private const val TAG = "HMP/MainTvFragment"
 
 class MainTvFragment : BrowseSupportFragment(), OnItemViewSelectedListener, OnItemViewClickedListener,
         View.OnClickListener, PlaybackService.Callback {

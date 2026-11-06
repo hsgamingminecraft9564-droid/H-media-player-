@@ -280,7 +280,7 @@ class PlaybackSpeedDialog : PlaybackBottomSheetDialogFragment(), PlaybackService
 
     companion object {
 
-        const val TAG = "VLC/PlaybackSpeedDialog"
+        const val TAG = "HMP/PlaybackSpeedDialog"
 
         fun newInstance(): PlaybackSpeedDialog {
             return PlaybackSpeedDialog()

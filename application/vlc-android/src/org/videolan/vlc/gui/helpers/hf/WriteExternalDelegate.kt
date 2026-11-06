@@ -92,8 +92,8 @@ class WriteExternalDelegate : BaseHeadlessFragment() {
     }
 
     companion object {
-        internal const val TAG = "VLC/WriteExternal"
-        internal const val KEY_STORAGE_PATH = "VLC/storage_path"
+        internal const val TAG = "HMP/WriteExternal"
+        internal const val KEY_STORAGE_PATH = "HMP/storage_path"
         private const val REQUEST_CODE_STORAGE_ACCESS = 42
 
         fun askForExtWrite(activity: FragmentActivity, uri: Uri, cb: Runnable? = null) {

@@ -45,7 +45,7 @@ import org.videolan.medialibrary.media.SearchAggregate;
 import java.io.File;
 
 public class MedialibraryImpl extends Medialibrary {
-    private static final String TAG = "VLC/JMedialibrary";
+    private static final String TAG = "HMP/JMedialibrary";
 
     public boolean construct(Context context) {
         if (context == null) throw new IllegalStateException("context cannot be null");

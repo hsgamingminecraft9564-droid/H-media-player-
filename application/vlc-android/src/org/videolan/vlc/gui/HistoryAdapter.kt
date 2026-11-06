@@ -154,7 +154,7 @@ class HistoryAdapter(private val inCards: Boolean = false, private val listEvent
 
     companion object {
 
-        const val TAG = "VLC/HistoryAdapter"
+        const val TAG = "HMP/HistoryAdapter"
     }
 
     override fun onItemMove(fromPosition: Int, toPosition: Int) {    }

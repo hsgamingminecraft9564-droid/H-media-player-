@@ -35,7 +35,7 @@ import java.util.*
 
 object RendererDelegate : RendererDiscoverer.EventListener {
 
-    private const val TAG = "VLC/RendererDelegate"
+    private const val TAG = "HMP/RendererDelegate"
     private val discoverers = ArrayList<RendererDiscoverer>()
     val renderers : LiveDataset<RendererItem> = LiveDataset()
 

@@ -42,7 +42,7 @@ import java.util.concurrent.atomic.AtomicInteger
  * Handles translation of paths, groups, clip paths, and gradients.
  */
 object VectorDrawableUtil {
-    private const val TAG = "VLC/VectorDrawableUtil"
+    private const val TAG = "HMP/VectorDrawableUtil"
 
     /**
      * Converts an Android Vector Drawable resource to SVG format.

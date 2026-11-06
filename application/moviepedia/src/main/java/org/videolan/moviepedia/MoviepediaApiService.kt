@@ -36,7 +36,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import java.util.*
 import java.util.concurrent.TimeUnit
 
-private const val USER_AGENT = "VLC-Android"
+private const val USER_AGENT = "HMediaPlayer-Android"
 
 private fun buildClient(): IMoviepediaApiService =
         Retrofit.Builder()

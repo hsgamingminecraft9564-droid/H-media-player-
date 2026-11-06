@@ -10,7 +10,7 @@ import org.videolan.medialibrary.interfaces.media.MediaWrapper;
 import org.videolan.medialibrary.interfaces.media.Playlist;
 
 public class SearchAggregate {
-    private static final String TAG = "VLC/SearchAggregate";
+    private static final String TAG = "HMP/SearchAggregate";
 
     private final Album[] albums;
     private final Artist[] artists;

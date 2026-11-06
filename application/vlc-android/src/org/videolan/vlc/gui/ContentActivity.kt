@@ -214,6 +214,6 @@ open class ContentActivity : AudioPlayerContainerActivity(), SearchView.OnQueryT
     }
 
     companion object {
-        const val TAG = "VLC/ContentActivity"
+        const val TAG = "HMP/ContentActivity"
     }
 }

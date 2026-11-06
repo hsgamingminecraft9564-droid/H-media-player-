@@ -36,7 +36,7 @@ import org.videolan.tools.putSingle
 
 typealias ProgramsList = MutableList<TvPreviewProgram>
 
-private const val TAG = "VLC/TvChannelUtils"
+private const val TAG = "HMP/TvChannelUtils"
 const val TV_CHANNEL_SCHEME = "vlclauncher"
 const val TV_CHANNEL_PATH_APP = "startapp"
 const val TV_CHANNEL_PATH_VIDEO = "video"

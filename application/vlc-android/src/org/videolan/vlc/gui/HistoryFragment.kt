@@ -70,7 +70,7 @@ import org.videolan.vlc.util.launchWhenStarted
 import org.videolan.vlc.util.showParentFolder
 import org.videolan.vlc.viewmodels.HistoryModel
 
-private const val TAG = "VLC/HistoryFragment"
+private const val TAG = "HMP/HistoryFragment"
 
 class HistoryFragment : MediaBrowserFragment<HistoryModel>(), IRefreshable, IHistory, SwipeRefreshLayout.OnRefreshListener, IListEventsHandler {
 

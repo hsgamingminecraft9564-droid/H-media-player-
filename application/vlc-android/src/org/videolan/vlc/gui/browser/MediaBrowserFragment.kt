@@ -67,7 +67,7 @@ import org.videolan.vlc.viewmodels.SortableModel
 import org.videolan.vlc.viewmodels.prepareOptionsMenu
 import org.videolan.vlc.viewmodels.sortMenuTitles
 
-private const val TAG = "VLC/MediaBrowserFragment"
+private const val TAG = "HMP/MediaBrowserFragment"
 private const val KEY_SELECTION = "key_selection"
 
 abstract class MediaBrowserFragment<T : SortableModel> : BaseFragment(), Filterable {

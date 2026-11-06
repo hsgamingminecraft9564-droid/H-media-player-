@@ -103,7 +103,7 @@ import java.util.Calendar
 import java.util.Stack
 import kotlin.math.max
 
-private const val TAG = "VLC/PlaylistManager"
+private const val TAG = "HMP/PlaylistManager"
 private const val PREVIOUS_LIMIT_DELAY = 5000L
 private const val PLAYLIST_AUDIO_REPEAT_MODE_KEY = "audio_repeat_mode"
 private const val PLAYLIST_VIDEO_REPEAT_MODE_KEY = "video_repeat_mode"

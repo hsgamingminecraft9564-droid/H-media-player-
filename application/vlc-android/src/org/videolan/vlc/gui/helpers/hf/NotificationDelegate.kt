@@ -67,7 +67,7 @@ class NotificationDelegate : BaseHeadlessFragment() {
     }
 
     companion object {
-        const val TAG = "VLC/NotificationDelegate"
+        const val TAG = "HMP/NotificationDelegate"
         private val notificationAccessGranted = LiveEvent<Boolean>()
 
 

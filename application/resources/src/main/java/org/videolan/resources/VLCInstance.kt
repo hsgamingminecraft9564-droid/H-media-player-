@@ -38,7 +38,7 @@ import org.videolan.resources.util.VLCCrashHandler
 import org.videolan.tools.SingletonHolder
 
 object VLCInstance : SingletonHolder<ILibVLC, Context>({ init(it.applicationContext) }) {
-    const val TAG = "VLC/UiTools/VLCInstance"
+    const val TAG = "HMP/UiTools/VLCInstance"
 
     @SuppressLint("StaticFieldLeak")
     private lateinit var sLibVLC: ILibVLC

@@ -63,7 +63,7 @@ import java.util.concurrent.LinkedBlockingQueue
 import java.util.concurrent.atomic.AtomicInteger
 
 object RemoteAccessWebSockets {
-    private const val TAG = "VLC/HttpSharingServerWS"
+    private const val TAG = "HMP/HttpSharingServerWS"
 
     val onPlaybackEventChannel = Channel<RemoteAccessServer.WSMessage>()
     val messageQueue: LinkedBlockingQueue<RemoteAccessServer.WSMessage> = LinkedBlockingQueue()

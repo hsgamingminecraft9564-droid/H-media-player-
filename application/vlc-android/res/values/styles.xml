@@ -23,17 +23,17 @@
         <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox
         </item>
 
-        <item name="colorPrimary">@color/orange800</item>
-        <item name="colorPrimaryDark">@color/orange700</item>
-        <item name="colorSecondary">@color/orange800</item>
+        <item name="colorPrimary">#111111</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorSecondary">#CC051A</item>
         <item name="colorOnSecondary">@color/grey50</item>
         <item name="colorOnPrimary">@color/white</item>
-        <item name="colorAccent">@color/orange800</item>
+        <item name="colorAccent">#CC051A</item>
         <item name="windowActionModeOverlay">true</item>
         <item name="actionModeTheme">@style/ThemeOverlay.ActionMode</item>
         <item name="actionModeStyle">@style/ActionMode</item>
         <item name="colorOnSurface">@color/black</item>
-        <item name="colorControlHighlight">@color/orange800</item>
+        <item name="colorControlHighlight">#CC051A</item>
         <item name="colorControlNormal">@color/grey700</item>
 
 
@@ -58,7 +58,7 @@
         <item name="background_actionbar">@color/white</item>
         <item name="audio_player_background_tint">@color/white_transparent_75</item>
         <item name="background_audio_tips">@color/white_transparent_95</item>
-        <item name="audio_browser_separator">@color/orange800</item>
+        <item name="audio_browser_separator">#CC051A</item>
         <item name="dialog_circle_background">@color/dialog_circle_background</item>
         <item name="font_default">@color/grey900</item>
         <item name="font_light">@color/grey700</item>
@@ -66,7 +66,7 @@
         <item name="font_audio_light">@color/grey700</item>
         <item name="list_subtitle">@color/list_subtitle</item>
         <item name="list_title">@color/list_title</item>
-        <item name="donate_card">@color/orange500</item>
+        <item name="donate_card">#CC051A</item>
         <item name="donate_item_background">@drawable/donate_background_color</item>
         <item name="android:windowBackground">@color/white</item>
         <item name="audio_chips_color">@color/black_transparent_75</item>
@@ -124,11 +124,11 @@
 
     <style name="VLC.Tooltip" parent="Widget.MaterialComponents.Tooltip">
         <item name="android:textAppearance">@style/TextAppearance.VLC.Tooltip</item>
-        <item name="backgroundTint">@color/orange800</item>
+        <item name="backgroundTint">#CC051A</item>
     </style>
     <style name="VLC.Tooltip.Dark" parent="Widget.MaterialComponents.Tooltip">
         <item name="android:textAppearance">@style/TextAppearance.VLC.Tooltip</item>
-        <item name="backgroundTint">@color/orange500</item>
+        <item name="backgroundTint">#CC051A</item>
     </style>
 
     <style name="TextAppearance.VLC.Tooltip" parent="TextAppearance.Material3.BodySmall">
@@ -140,9 +140,9 @@
     <style name="Theme.VLC.PickerDialog.Dark" parent="Theme.VLC.PickerDialog.Dark.7"/>
     <style name="Theme.VLC.PickerDialog.Light" parent="Theme.VLC.PickerDialog.Light.7"/>
     <style name="Theme.VLC.PickerDialog.Dark.7" parent="Theme.MaterialComponents.Dialog">
-        <item name="colorPrimary">@color/orange500</item>
-        <item name="colorPrimaryDark">@color/orange700</item>
-        <item name="colorSecondary">@color/orange500</item>
+        <item name="colorPrimary">#111111</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorSecondary">#CC051A</item>
         <item name="windowNoTitle">true</item>
         <item name="android:gridViewStyle">@style/Theme.VLC.List</item>
         <item name="background_default">@color/grey850</item>
@@ -163,9 +163,9 @@
     </style>
 
     <style name="Theme.VLC.PickerDialog.Light.7" parent="Theme.MaterialComponents.Dialog">
-        <item name="colorPrimary">@color/orange500</item>
-        <item name="colorPrimaryDark">@color/orange700</item>
-        <item name="colorSecondary">@color/orange500</item>
+        <item name="colorPrimary">#111111</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorSecondary">#CC051A</item>
         <item name="windowNoTitle">true</item>
         <item name="android:gridViewStyle">@style/Theme.VLC.List</item>
         <item name="background_default">@color/white</item>
@@ -188,9 +188,9 @@
 
     <style name="Theme.VLC.SendCrashDialog" parent="Theme.MaterialComponents.Dialog">
         <item name="windowNoTitle">true</item>
-        <item name="colorPrimary">@color/orange800</item>
-        <item name="colorPrimaryDark">@color/orange700</item>
-        <item name="colorAccent">@color/orange500</item>
+        <item name="colorPrimary">#111111</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#CC051A</item>
     </style>
 
     <style name="Theme.VLC.Black" parent="Theme.VLC.Black.7" />
@@ -219,13 +219,13 @@
         <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox
         </item>
 
-        <item name="colorPrimary">@color/orange500</item>
+        <item name="colorPrimary">#111111</item>
         <item name="colorPrimaryDark">@color/transparent</item>
-        <item name="colorAccent">@color/orange600</item>
-        <item name="colorSecondary">@color/orange600</item>
+        <item name="colorAccent">#CC051A</item>
+        <item name="colorSecondary">#CC051A</item>
         <item name="colorOnSecondary">@color/grey50</item>
         <item name="colorOnPrimary">@color/white</item>
-        <item name="colorControlHighlight">@color/orange500</item>
+        <item name="colorControlHighlight">#CC051A</item>
         <item name="colorControlNormal">@color/grey300</item>
 
         <item name="windowActionModeOverlay">true</item>
@@ -252,7 +252,7 @@
         <item name="background_actionbar">@color/dark_background</item>
         <item name="background_audio_tips">@color/black_transparent_90</item>
         <item name="audio_player_background_tint">@color/black_transparent_50</item>
-        <item name="audio_browser_separator">@color/orange500</item>
+        <item name="audio_browser_separator">#CC051A</item>
         <item name="dialog_circle_background">@color/dialog_circle_background_dark</item>
         <item name="font_default">@color/grey50</item>
         <item name="font_light">@color/grey600</item>
@@ -260,11 +260,11 @@
         <item name="font_audio_light">@color/grey400</item>
         <item name="list_subtitle">@color/list_subtitle_dark</item>
         <item name="list_title">@color/list_title_dark</item>
-        <item name="donate_card">@color/orange500transparent</item>
+        <item name="donate_card">#66CC051A</item>
         <item name="donate_item_background">@drawable/donate_background_color_dark</item>
         <item name="android:windowBackground">@color/dark_background</item>
         <item name="audio_chips_color">@color/white_transparent_90</item>
-        <item name="audio_chips_text_color">@color/black_transparent_60</item>
+        <item name="audio_chips_text_color">@color/hmp_silver</item>
         <item name="bottom_navigation_focus">@color/white_transparent_10</item>
         <item name="scan_background">@drawable/rounded_corners_scan_progress_dark</item>
         <item name="otp_code_background">@drawable/rounded_corners_otp_code_dark</item>
@@ -295,12 +295,12 @@
         <item name="video_card_background">@drawable/video_grid_card_background_dark</item>
         <item name="video_list_background">@drawable/video_list_background_dark</item>
         <item name="audio_chip_background">@drawable/rounded_corners_audio_dark</item>
-        <item name="audio_chip_text_color">@color/black_transparent_60</item>
+        <item name="audio_chip_text_color">@color/hmp_silver</item>
         <item name="empty_title">@color/grey300</item>
         <item name="audio_player_gradient_bottom">@drawable/gradient_audio_player_bottom_dark</item>
         <item name="audio_player_gradient_top">@drawable/gradient_audio_player_top_dark</item>
         <item name="tips_item_background">@color/grey900</item>
-        <item name="about_text_primary">@color/orange500</item>
+        <item name="about_text_primary">#CC051A</item>
         <item name="widget_preview_rounded_bg">@drawable/rounded_top_corners_left_background_dark</item>
         <item name="sliderStyle">@style/VLC.Slider.Dark</item>
     </style>
@@ -312,10 +312,10 @@
         <item name="subtitleTextStyle">@style/ActionModeSubtitleTextStyle</item>
     </style>
     <style name="ActionModeTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title">
-        <item name="android:textColor">@color/orange800</item>
+        <item name="android:textColor">#CC051A</item>
     </style>
     <style name="ActionModeSubtitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
-        <item name="android:textColor">@color/orange800</item>
+        <item name="android:textColor">#CC051A</item>
     </style>
 
     <style name="ActionMode.Dark" parent="Widget.AppCompat.ActionBar.Solid">
@@ -324,17 +324,17 @@
         <item name="subtitleTextStyle">@style/ActionModeSubtitleTextStyleDark</item>
     </style>
     <style name="ActionModeTitleTextStyleDark" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title">
-        <item name="android:textColor">@color/orange500</item>
+        <item name="android:textColor">#CC051A</item>
     </style>
     <style name="ActionModeSubtitleTextStyleDark" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
-        <item name="android:textColor">@color/orange500</item>
+        <item name="android:textColor">#CC051A</item>
     </style>
 
     <style name="ThemeOverlay.ActionMode" parent="ThemeOverlay.AppCompat.ActionBar">
-        <item name="colorControlNormal">@color/orange800</item>
+        <item name="colorControlNormal">#CC051A</item>
     </style>
     <style name="ThemeOverlay.ActionMode.Dark" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name="colorControlNormal">@color/orange500</item>
+        <item name="colorControlNormal">#D7DBE0</item>
     </style>
 
     <style name="Theme.VLC.Onboarding" parent="Theme.VLC.Onboarding.7"/>
@@ -345,9 +345,9 @@
     </style>
 
     <style name="Theme.VLC.TV" parent="Theme.Leanback">
-        <item name="colorPrimary">@color/orange800</item>
+        <item name="colorPrimary">#111111</item>
         <item name="colorPrimaryDark">@color/transparent</item>
-        <item name="colorAccent">@color/orange600</item>
+        <item name="colorAccent">#CC051A</item>
         <item name="font_default">@color/white</item>
         <item name="font_audio_light">@color/grey600</item>
         <item name="imageCardViewInfoAreaStyle">@style/VLCardViewInfoStyle</item>
@@ -355,7 +355,7 @@
         <item name="imageCardViewStyle">@style/VLCardView</item>
         <item name="audio_player_background_tint">@color/grey900transparent</item>
         <item name="header_background">@drawable/gradient_background_tv</item>
-        <item name="audio_browser_separator">@color/orange500</item>
+        <item name="audio_browser_separator">#CC051A</item>
         <item name="player_icon_color">@color/white</item>
         <item name="ariane_text_color">@color/simple_list_title_tv</item>
         <item name="list_title">@color/grey50</item>
@@ -385,13 +385,13 @@
     </style>
 
     <style name="VLC.OnboardingPageIndicatorStyle" parent="Widget.Leanback.OnboardingPageIndicatorStyle">
-        <item name="dotBgColor">@color/orange500</item>
-        <item name="arrowBgColor">@color/orange500</item>
+        <item name="dotBgColor">#CC051A</item>
+        <item name="arrowBgColor">#CC051A</item>
     </style>
 
     <style name="Theme.VLC.TV.Audio">
-        <item name="colorPrimary">@color/orange800</item>
-        <item name="colorAccent">@color/orange800</item>
+        <item name="colorPrimary">#111111</item>
+        <item name="colorAccent">#CC051A</item>
     </style>
 
     <style name="VLCardView" parent="Widget.Leanback.ImageCardViewStyle">
@@ -454,8 +454,8 @@
     </style>
 
     <style name="Theme.VLC.Leanback.Preferences" parent="Theme.Leanback">
-        <item name="colorAccent">@color/orange500</item>
-        <item name="android:colorAccent">@color/orange500</item>
+        <item name="colorAccent">#CC051A</item>
+        <item name="android:colorAccent">#CC051A</item>
         <item name="colorControlNormal">@color/grey300</item>
         <item name="preferenceTheme">@style/PreferenceThemeOverlayLeanback</item>
     </style>
@@ -474,10 +474,10 @@
     </style>
 
     <style name="Theme.VLC.Transparent" parent="Theme.MaterialComponents.NoActionBar">
-        <item name="colorPrimary">@color/orange800</item>
+        <item name="colorPrimary">#111111</item>
         <item name="colorPrimaryDark">@color/transparent</item>
-        <item name="colorAccent">@color/orange500</item>
-        <item name="android:colorAccent">@color/orange500</item>
+        <item name="colorAccent">#CC051A</item>
+        <item name="android:colorAccent">#CC051A</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item>
     </style>
@@ -507,9 +507,9 @@
         <item name="bottom_sheet_radius">4dp</item>
 
 
-        <item name="colorPrimary">@color/orange800</item>
+        <item name="colorPrimary">#111111</item>
         <item name="colorPrimaryDark">@color/transparent</item>
-        <item name="colorAccent">@color/orange500</item>
+        <item name="colorAccent">#CC051A</item>
         <item name="background_default_darker">@color/grey875</item>
 
         <item name="background_default">@color/grey850</item>
@@ -530,9 +530,9 @@
 
         <item name="list_subtitle">@color/grey400</item>
         <item name="list_title">@color/white</item>
-        <item name="android:colorControlHighlight" tools:targetApi="lollipop">@color/orange500
+        <item name="android:colorControlHighlight" tools:targetApi="lollipop">#CC051A
         </item>
-        <item name="colorControlHighlight">@color/orange500</item>
+        <item name="colorControlHighlight">#CC051A</item>
         <item name="player_icon_color">@color/grey50</item>
         <item name="background_audio_tips">@color/white_transparent_95</item>
         <item name="audio_seek_bar">@drawable/audio_seekbar_black</item>
@@ -545,9 +545,9 @@
         <item name="android:background">@android:color/transparent</item>
         <item name="background">@android:color/transparent</item>
 
-        <item name="colorPrimary">@color/orange500</item>
+        <item name="colorPrimary">#111111</item>
         <item name="colorPrimaryDark">@color/transparent</item>
-        <item name="colorAccent">@color/orange500</item>
+        <item name="colorAccent">#CC051A</item>
 
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorBackgroundCacheHint">@android:color/transparent</item>
@@ -563,9 +563,9 @@
         <item name="android:background">@android:color/transparent</item>
         <item name="background">@android:color/transparent</item>
 
-        <item name="colorPrimary">@color/orange500</item>
+        <item name="colorPrimary">#111111</item>
         <item name="colorPrimaryDark">@color/transparent</item>
-        <item name="colorAccent">@color/orange500</item>
+        <item name="colorAccent">#CC051A</item>
 
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorBackgroundCacheHint">@android:color/transparent</item>
@@ -758,7 +758,7 @@
     <!-- Tips Apearance-->
 
     <style name="TipsFontStyle">
-        <item name="android:textColor">@color/orange700</item>
+        <item name="android:textColor">#CC051A</item>
         <item name="android:textStyle">bold</item>
     </style>
 

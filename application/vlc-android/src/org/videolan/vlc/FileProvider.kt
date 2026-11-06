@@ -13,7 +13,7 @@ import java.io.File
 import java.io.FileNotFoundException
 import java.io.IOException
 
-private const val TAG = "VLC/FileProvider"
+private const val TAG = "HMP/FileProvider"
 private const val THUMB_PROVIDER_AUTHORITY = "${BuildConfig.APP_ID}.thumbprovider"
 
 class FileProvider : ContentProvider() {

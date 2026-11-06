@@ -496,7 +496,7 @@ class AudioBrowserFragment : BaseAudioBrowser<AudioBrowserViewModel>() {
     override fun allowedToExpand() = getCurrentRV().scrollState == RecyclerView.SCROLL_STATE_IDLE
 
     companion object {
-        const val TAG = "VLC/AudioBrowserFragment"
+        const val TAG = "HMP/AudioBrowserFragment"
 
         private const val KEY_LISTS_POSITIONS = "key_lists_position"
         private const val MODE_TOTAL = 5 // Number of audio lists

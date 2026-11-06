@@ -192,7 +192,7 @@ class MediaWrapperList {
     }
 
     companion object {
-        private const val TAG = "VLC/MediaWrapperList"
+        private const val TAG = "HMP/MediaWrapperList"
 
         private const val EVENT_ADDED = 0
         private const val EVENT_REMOVED = 1

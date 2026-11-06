@@ -57,7 +57,7 @@ import videolan.org.commontools.existingPrograms
 import videolan.org.commontools.indexOfId
 import videolan.org.commontools.updateWatchNext
 
-private const val TAG = "VLC/TvChannels"
+private const val TAG = "HMP/TvChannels"
 private const val MAX_RECOMMENDATIONS = 3
 
 @RequiresApi(Build.VERSION_CODES.O)

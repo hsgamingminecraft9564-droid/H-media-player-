@@ -163,6 +163,6 @@ class PlayerBehavior<V : View> : com.google.android.material.bottomsheet.BottomS
     }
 
     companion object {
-        const val TAG = "VLC/BottomSheetBehavior"
+        const val TAG = "HMP/BottomSheetBehavior"
     }
 }

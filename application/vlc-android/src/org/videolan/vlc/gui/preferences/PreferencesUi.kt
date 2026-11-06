@@ -37,6 +37,8 @@ import org.videolan.medialibrary.Tools
 import org.videolan.medialibrary.interfaces.Medialibrary
 import org.videolan.resources.AndroidDevices
 import org.videolan.tools.KEY_APP_THEME
+import com.hmediaplayer.ui.HmpTypographySettings
+import android.view.ViewGroup
 import org.videolan.tools.KEY_ARTISTS_SHOW_ALL
 import org.videolan.tools.KEY_BLACK_THEME
 import org.videolan.tools.KEY_DAYNIGHT
@@ -133,6 +135,10 @@ class PreferencesUi : BasePreferenceFragment(), SharedPreferences.OnSharedPrefer
             PREF_TV_UI -> {
                 Settings.tvUI = (preference as TwoStatePreference).isChecked
                 (activity as PreferencesActivity).setRestartApp()
+                return true
+            }
+            "hmp_font_style" -> {
+                HmpTypographySettings.show(requireContext(), requireActivity().window.decorView as ViewGroup)
                 return true
             }
             SHOW_VIDEO_THUMBNAILS -> {

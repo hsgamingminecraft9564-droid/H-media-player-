@@ -1,0 +1,10 @@
+H MEDIA PLAYER — PROJECT CONTENTS
+
+Base: user-provided H Media Player for Android source archive
+Playback: H Media Player / LibH Media Player engine retained
+Branding: user-provided Ideogram app icon and UI-control artwork
+Typography: user's HmpTypography.java and HmpTypographySettings.java integrated into module source tree
+Theme: orange accent references changed to violet/lavender palette in Android style XML files
+
+Important: this is a source project, not a prebuilt APK. The full Android build has not been run here.
+See H_MEDIA_PLAYER_README.md for build and integration notes.

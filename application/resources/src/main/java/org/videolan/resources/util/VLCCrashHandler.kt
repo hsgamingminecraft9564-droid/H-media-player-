@@ -40,7 +40,7 @@ import java.io.PrintWriter
 import java.io.StringWriter
 import java.lang.Thread.UncaughtExceptionHandler
 
-private const val TAG = "VLC/VlcCrashHandler"
+private const val TAG = "HMP/VlcCrashHandler"
 
 class VLCCrashHandler : UncaughtExceptionHandler {
 

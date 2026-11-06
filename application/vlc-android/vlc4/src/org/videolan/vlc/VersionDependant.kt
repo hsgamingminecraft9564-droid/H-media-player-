@@ -109,6 +109,6 @@ fun getDisableTrack(context: Context) = object : VlcTrack {
  * See [org.videolan.vlc.util.FontCache].
  */
 fun LibVLC.buildFontCacheIfSupported(): Boolean {
-    Log.i("VLC/FontCache", "fontconfig is disabled on VLC4, nothing to build")
+    Log.i("HMP/FontCache", "fontconfig is disabled on VLC4, nothing to build")
     return true
 }

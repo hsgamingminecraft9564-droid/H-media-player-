@@ -72,7 +72,7 @@ import java.security.SecureRandom
 import java.util.LinkedList
 import kotlin.math.min
 
-private const val TAG = "VLC/MediaUtils"
+private const val TAG = "HMP/MediaUtils"
 
 private typealias MediaContentResolver = SimpleArrayMap<String, IMediaContentResolver>
 

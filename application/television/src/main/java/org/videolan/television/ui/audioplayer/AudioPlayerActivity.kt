@@ -460,7 +460,7 @@ class AudioPlayerActivity : BaseTvActivity(),KeycodeListener, PlaybackService.Ca
     }
 
     companion object {
-        const val TAG = "VLC/AudioPlayerActivity"
+        const val TAG = "HMP/AudioPlayerActivity"
 
         const val MEDIA_LIST = "media_list"
         const val MEDIA_PLAYLIST = "media_playlist"

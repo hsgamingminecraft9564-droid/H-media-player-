@@ -107,7 +107,7 @@ import kotlin.math.max
 import kotlin.math.min
 
 
-private const val TAG = "VLC/APCActivity"
+private const val TAG = "HMP/APCActivity"
 
 private const val ACTION_DISPLAY_PROGRESSBAR = "action_display_progressbar"
 private const val ACTION_SHOW_PLAYER = "action_show_player"

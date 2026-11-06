@@ -9,7 +9,7 @@ import org.videolan.medialibrary.interfaces.media.MediaWrapper;
 
 @SuppressWarnings("JniMissingFunction")
 public class AlbumImpl extends Album {
-    public static final String TAG = "VLC/Album";
+    public static final String TAG = "HMP/Album";
 
     public AlbumImpl(long id, String title, int releaseYear, String artworkMrl, String albumArtist, long albumArtistId, int nbTracks, int nbPresentTracks, long duration, boolean isFavorite) {
         super(id, title, releaseYear, artworkMrl, albumArtist, albumArtistId, nbTracks, nbPresentTracks, duration, isFavorite);

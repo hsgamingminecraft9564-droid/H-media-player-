@@ -581,7 +581,7 @@ class MiniPlayerAppWidgetProvider : AppWidgetProvider() {
 
 
     companion object {
-        const val TAG = "VLC/VLCAppWidgetProvider"
+        const val TAG = "HMP/VLCAppWidgetProvider"
         val ACTION_WIDGET_PREFIX = "widget.mini.".buildPkgString()
         val ACTION_WIDGET_INIT = ACTION_WIDGET_PREFIX + "INIT"
         val ACTION_WIDGET_UPDATE = ACTION_WIDGET_PREFIX + "UPDATE"

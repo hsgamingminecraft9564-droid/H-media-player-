@@ -204,7 +204,7 @@ import java.util.ArrayDeque
 import java.util.Calendar
 import kotlin.math.absoluteValue
 
-private const val TAG = "VLC/PlaybackService"
+private const val TAG = "HMP/PlaybackService"
 
 class PlaybackService : MediaBrowserServiceCompat(), LifecycleOwner, CoroutineScope, SchedulerCallback {
     override val coroutineContext = Dispatchers.IO + SupervisorJob()

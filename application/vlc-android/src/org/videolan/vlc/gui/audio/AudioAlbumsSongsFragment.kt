@@ -76,7 +76,7 @@ import org.videolan.vlc.viewmodels.PlaylistModel
 import org.videolan.vlc.viewmodels.mobile.AlbumSongsViewModel
 import org.videolan.vlc.viewmodels.mobile.getViewModel
 
-private const val TAG = "VLC/AudioAlbumsSongsFragment"
+private const val TAG = "HMP/AudioAlbumsSongsFragment"
 
 private const val MODE_ALBUM = 0
 private const val MODE_SONG = 1

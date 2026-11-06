@@ -48,7 +48,7 @@ import kotlin.math.absoluteValue
 
 @TargetApi(VERSION_CODES.N)
 object AndroidDevices {
-    const val TAG = "VLC/UiTools/AndroidDevices"
+    const val TAG = "HMP/UiTools/AndroidDevices"
     val EXTERNAL_PUBLIC_DIRECTORY: String = Environment.getExternalStorageDirectory().path
     val isPhone: Boolean
     val hasNavBar: Boolean

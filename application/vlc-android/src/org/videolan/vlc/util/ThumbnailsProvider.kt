@@ -30,7 +30,7 @@ import kotlin.math.min
 object ThumbnailsProvider {
 
     @Suppress("unused")
-    private const val TAG = "VLC/ThumbnailsProvider"
+    private const val TAG = "HMP/ThumbnailsProvider"
 
     private var appDir: File? = null
     private var cacheDir: String? = null

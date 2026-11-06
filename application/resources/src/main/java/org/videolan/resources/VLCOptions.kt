@@ -77,7 +77,7 @@ import java.io.File
 import java.util.Collections
 
 object VLCOptions {
-    private const val TAG = "VLC/VLCConfig"
+    private const val TAG = "HMP/VLCConfig"
 
     private const val AOUT_AAUDIO = 0
     private const val AOUT_AUDIOTRACK = 1
@@ -240,7 +240,7 @@ object VLCOptions {
                 options.add("--soundfont=${soundFontFile.path}")
             }
             options.add("--preferred-resolution=${pref.getString(KEY_PREFERRED_RESOLUTION, "-1")!!}")
-            if (BuildConfig.DEBUG) Log.d(this::class.java.simpleName, "VLC Options: ${options.joinToString(" ")}")
+            if (BuildConfig.DEBUG) Log.d(this::class.java.simpleName, "H Media engine options: ${options.joinToString(" ")}")
             return options
         }
 

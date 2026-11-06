@@ -50,7 +50,7 @@ import org.videolan.vlc.gui.helpers.UiTools
 import org.videolan.vlc.util.DialogDelegate
 import org.videolan.vlc.util.IDialogManager
 
-private const val TAG = "VLC/BaseTvActivity"
+private const val TAG = "HMP/BaseTvActivity"
 const val REQUEST_CODE_NO_CONNECTION = 100
 const val REQUEST_CODE_RESTART_APP = 101
 

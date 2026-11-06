@@ -139,7 +139,7 @@ class MainTvActivity : BaseTvActivity(), StoragePermissionsDelegate.CustomAction
 
         const val BROWSER_TYPE = "browser_type"
 
-        const val TAG = "VLC/MainTvActivity"
+        const val TAG = "HMP/MainTvActivity"
         private const val SHOW_LOADING = "show_loading"
         private const val HIDE_LOADING = "hide_loading"
     }

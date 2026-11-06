@@ -67,7 +67,7 @@ import org.videolan.vlc.gui.helpers.UiTools
 import org.videolan.vlc.interfaces.BrowserFragmentInterface
 import org.videolan.vlc.viewmodels.StreamsModel
 
-const val TAG = "VLC/MrlPanelFragment"
+const val TAG = "HMP/MrlPanelFragment"
 
 class MRLPanelFragment : BaseFragment(), View.OnKeyListener, TextView.OnEditorActionListener,
         View.OnClickListener, BrowserFragmentInterface,

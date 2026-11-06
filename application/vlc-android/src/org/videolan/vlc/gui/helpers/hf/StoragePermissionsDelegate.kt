@@ -167,7 +167,7 @@ class StoragePermissionsDelegate : BaseHeadlessFragment() {
 
     companion object {
 
-        const val TAG = "VLC/StorageHF"
+        const val TAG = "HMP/StorageHF"
         val storageAccessGranted = LiveEvent<Boolean>()
 
         fun FragmentActivity.askStoragePermission( write: Boolean, cb: Runnable?) {

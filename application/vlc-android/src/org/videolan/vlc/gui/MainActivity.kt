@@ -93,7 +93,7 @@ import org.videolan.vlc.util.getScreenWidth
 import java.io.File
 import java.util.concurrent.TimeUnit
 
-private const val TAG = "VLC/MainActivity"
+private const val TAG = "HMP/MainActivity"
 
 class MainActivity : ContentActivity(),
         INavigator by Navigator()

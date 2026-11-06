@@ -58,7 +58,7 @@
 
     <color name="dark_background">#131313</color>
 
-    <color name="playerbackground">#c0141414</color>
+    <color name="playerbackground">#CC0A0A0A</color>
     <color name="playerbackground_invert">#c0ebebeb</color>
     <color name="black_more_transparent">#88000000</color>
     <color name="status_bar_transparency">#cb000000</color>
@@ -129,4 +129,14 @@
     <color name="onboarding_grey_transparent_75">#BF011422</color>
     <color name="material_blue">#2196f3</color>
     <color name="material_pink">#e91e63</color>
+
+    <!-- H Media Player palette (Blood & Iron) -->
+    <color name="hmp_crimson">#CC051A</color>
+    <color name="hmp_crimson_light">#E0303C</color>
+    <color name="hmp_charcoal">#1A1A1A</color>
+    <color name="hmp_silver">#D7DBE0</color>
+    <color name="hmp_lime">#B6D752</color>
+    <color name="hmp_lime_dim">#3E4A22</color>
+    <color name="hmp_olive_black">#131507</color>
+    <color name="hmp_crimson_dim">#4A0209</color>
 </resources>

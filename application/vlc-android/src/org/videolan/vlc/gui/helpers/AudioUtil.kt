@@ -49,7 +49,7 @@ import java.io.File
 import java.io.FileInputStream
 
 object AudioUtil {
-    const val TAG = "VLC/AudioUtil"
+    const val TAG = "HMP/AudioUtil"
 
     fun FragmentActivity.setRingtone(song: MediaWrapper) {
         if (AndroidUtil.isOOrLater && !Permissions.canWriteStorage(this)) {

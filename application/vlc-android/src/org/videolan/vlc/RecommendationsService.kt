@@ -50,7 +50,7 @@ import org.videolan.vlc.gui.helpers.BitmapUtil
 import org.videolan.vlc.gui.video.VideoPlayerActivity
 import org.videolan.vlc.util.getAppSystemService
 
-private const val TAG = "VLC/RecommendationsService"
+private const val TAG = "HMP/RecommendationsService"
 private const val MAX_RECOMMENDATIONS = 3
 
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)

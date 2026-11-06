@@ -151,7 +151,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="VLC"
+                    android:text="H Media Player"
                     android:textColor="?attr/font_light"
                     app:layout_constraintEnd_toStartOf="@id/compilation_barrier"
                     app:layout_constraintStart_toStartOf="parent"

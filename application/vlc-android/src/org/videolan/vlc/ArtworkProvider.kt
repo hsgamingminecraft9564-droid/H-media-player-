@@ -69,7 +69,7 @@ import java.util.Locale
 import java.util.zip.CRC32
 import kotlin.math.max
 
-private const val TAG = "VLC/ArtworkProvider"
+private const val TAG = "HMP/ArtworkProvider"
 private const val MIME_TYPE_IMAGE_WEBP = "image/webp"
 private const val ENABLE_TRACING = false
 

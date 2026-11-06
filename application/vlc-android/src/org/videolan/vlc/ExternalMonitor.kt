@@ -53,7 +53,7 @@ import org.videolan.vlc.gui.helpers.UiTools
 import org.videolan.vlc.gui.helpers.hf.OtgAccess
 import java.lang.ref.WeakReference
 
-private const val TAG = "VLC/ExternalMonitor"
+private const val TAG = "HMP/ExternalMonitor"
 
 @SuppressLint("StaticFieldLeak")
 object ExternalMonitor : BroadcastReceiver(), DefaultLifecycleObserver, CoroutineScope by MainScope() {

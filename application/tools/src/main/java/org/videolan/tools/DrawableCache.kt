@@ -31,7 +31,7 @@ import androidx.annotation.DrawableRes
  * perform lookups by string name. Adjust the max-size as application use increases.
  */
 object DrawableCache {
-    private const val TAG = "VLC/DrawableCache"
+    private const val TAG = "HMP/DrawableCache"
     private val memCache = LruCache<String, Int>(8)
 
     fun getDrawableFromMemCache(ctx: Context, name: String, @DrawableRes defaultDrawable: Int): Int {

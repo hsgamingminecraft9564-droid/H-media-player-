@@ -34,7 +34,7 @@ import org.videolan.tools.CoroutineContextProvider
 import org.videolan.tools.livedata.LiveDataset
 import org.videolan.vlc.util.FilterDelegate
 
-private const val TAG = "VLC/BaseModel"
+private const val TAG = "HMP/BaseModel"
 
 abstract class BaseModel<T : MediaLibraryItem>(context: Context, val coroutineContextProvider: CoroutineContextProvider) : SortableModel(context) {
 

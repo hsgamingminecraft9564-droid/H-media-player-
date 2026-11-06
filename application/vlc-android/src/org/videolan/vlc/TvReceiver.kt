@@ -83,7 +83,7 @@ class TvReceiver : BroadcastReceiver() {
 
     companion object {
 
-        private const val TAG = "VLC/TvReceiver"
+        private const val TAG = "HMP/TvReceiver"
 
         private const val INITIAL_DELAY: Long = 5000
     }

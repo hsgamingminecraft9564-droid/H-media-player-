@@ -38,6 +38,9 @@ import org.videolan.tools.getContextWithLocale
 import org.videolan.tools.setGone
 import org.videolan.vlc.R
 import org.videolan.vlc.gui.helpers.UiTools
+import com.hmediaplayer.ui.HmpTypography
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.Fragment
 import org.videolan.vlc.gui.helpers.applyTheme
 import org.videolan.vlc.gui.helpers.hf.PinCodeDelegate
 import org.videolan.vlc.gui.helpers.hf.checkPIN
@@ -143,8 +146,24 @@ abstract class BaseActivity : AppCompatActivity() {
         }
     }
 
+    private var hmpTypographyHooked = false
+
+    override fun onContentChanged() {
+        super.onContentChanged()
+        HmpTypography.applyTree(window.decorView)
+        if (!hmpTypographyHooked) {
+            hmpTypographyHooked = true
+            supportFragmentManager.registerFragmentLifecycleCallbacks(object : FragmentManager.FragmentLifecycleCallbacks() {
+                override fun onFragmentViewCreated(fm: FragmentManager, f: Fragment, v: View, savedInstanceState: Bundle?) {
+                    HmpTypography.applyTree(v)
+                }
+            }, true)
+        }
+    }
+
     override fun onResume() {
         super.onResume()
+        HmpTypography.applyTree(window.decorView)
         Permissions.emptyCache()
     }
 

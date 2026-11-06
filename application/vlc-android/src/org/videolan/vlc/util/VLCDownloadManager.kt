@@ -139,7 +139,7 @@ object VLCDownloadManager: BroadcastReceiver(), DefaultLifecycleObserver {
         ExternalSubRepository.getInstance(context).removeDownloadingItem(id)
     }
 
-    private fun getDownloadPath(subtitleItem: SubtitleItem) = "VLC/${subtitleItem.movieReleaseName}_${subtitleItem.fileName}.zip"
+    private fun getDownloadPath(subtitleItem: SubtitleItem) = "HMP/${subtitleItem.movieReleaseName}_${subtitleItem.fileName}.zip"
 
     private fun getDownloadState(downloadId: Long): Pair<Int, String> {
         val query = DownloadManager.Query()

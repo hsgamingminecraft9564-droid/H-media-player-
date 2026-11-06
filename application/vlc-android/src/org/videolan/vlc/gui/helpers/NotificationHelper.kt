@@ -66,7 +66,7 @@ const val MISC_CHANNEL_ID = "misc"
 private const val RECOMMENDATION_CHANNEL_ID = "vlc_recommendations"
 
 object NotificationHelper {
-    const val TAG = "VLC/NotificationHelper"
+    const val TAG = "HMP/NotificationHelper"
     const val VLC_DEBUG_CHANNEL = "vlc_debug"
 
     private val notificationIntent = Intent()

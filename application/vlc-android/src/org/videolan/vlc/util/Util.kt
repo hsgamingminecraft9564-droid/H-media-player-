@@ -38,7 +38,7 @@ import java.io.InputStream
 import java.io.InputStreamReader
 
 object Util {
-    const val TAG = "VLC/Util"
+    const val TAG = "HMP/Util"
 
     fun readAsset(assetName: String, defaultS: String): String {
         var inputStream: InputStream? = null

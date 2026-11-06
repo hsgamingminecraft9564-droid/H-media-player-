@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 
 public class Tools {
 
-    private static final String TAG = "VLC/Tools";
+    private static final String TAG = "HMP/Tools";
     private static final ThreadLocal<NumberFormat> TWO_DIGITS = new ThreadLocal<NumberFormat>() {
         @Override
         protected NumberFormat initialValue() {

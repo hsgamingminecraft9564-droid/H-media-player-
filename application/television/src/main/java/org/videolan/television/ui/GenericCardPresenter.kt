@@ -53,7 +53,7 @@ class GenericCardPresenter @JvmOverloads constructor(context: Context, cardTheme
     }
 
     companion object {
-        private const val TAG = "VLC/CardPresenter"
+        private const val TAG = "HMP/CardPresenter"
     }
 }
 

@@ -41,7 +41,7 @@ import org.videolan.vlc.buildFontCacheIfSupported
 import java.io.File
 import java.util.concurrent.atomic.AtomicLong
 
-private const val TAG = "VLC/FontCache"
+private const val TAG = "HMP/FontCache"
 private const val SYSTEM_FONTS_DIR = "/system/fonts"
 /** Give up after this many failed builds, so that a device which can't store the cache
  * doesn't delay every playback. */

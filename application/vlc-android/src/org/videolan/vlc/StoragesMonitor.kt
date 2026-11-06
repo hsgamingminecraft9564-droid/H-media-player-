@@ -19,7 +19,7 @@ import org.videolan.vlc.gui.DialogActivity
 import org.videolan.vlc.util.scanAllowed
 
 
-private const val TAG = "VLC/StoragesMonitor"
+private const val TAG = "HMP/StoragesMonitor"
 class StoragesMonitor : BroadcastReceiver() {
 
     override fun onReceive(context: Context, intent: Intent) {

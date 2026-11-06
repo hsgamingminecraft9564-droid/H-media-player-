@@ -224,7 +224,7 @@ abstract class FlingViewGroup(context: Context, attrs: AttributeSet) : ViewGroup
     }
 
     companion object {
-        const val TAG = "VLC/FlingViewGroup"
+        const val TAG = "HMP/FlingViewGroup"
         private const val TOUCH_STATE_MOVE = 0
         private const val TOUCH_STATE_REST = 1
     }

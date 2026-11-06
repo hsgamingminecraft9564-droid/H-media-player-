@@ -28,7 +28,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import java.util.concurrent.atomic.AtomicBoolean
 
-private const val TAG = "VLC/LiveEvent"
+private const val TAG = "HMP/LiveEvent"
 
 class LiveEvent<T> : MutableLiveData<T>() {
     private val pending = AtomicBoolean(false)

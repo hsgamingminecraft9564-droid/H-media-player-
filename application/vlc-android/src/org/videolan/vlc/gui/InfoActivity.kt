@@ -64,7 +64,7 @@ import org.videolan.vlc.viewmodels.browser.IPathOperationDelegate
 import org.videolan.vlc.viewmodels.browser.PathOperationDelegate
 import java.io.File
 
-private const val TAG = "VLC/InfoActivity"
+private const val TAG = "HMP/InfoActivity"
 private const val TAG_FAB_VISIBILITY = "FAB"
 
 class InfoActivity : AudioPlayerContainerActivity(), View.OnClickListener, PathAdapterListener,

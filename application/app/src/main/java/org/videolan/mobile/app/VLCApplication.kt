@@ -30,7 +30,7 @@ import org.videolan.tools.BitmapCache
 import org.videolan.vlc.ArtworkProvider
 import org.videolan.vlc.util.DialogDelegate
 
-private const val TAG = "VLC/VLCApplication"
+private const val TAG = "HMP/VLCApplication"
 
 class VLCApplication : MultiDexApplication(), Dialog.Callbacks by DialogDelegate, AppDelegate by AppSetupDelegate() {
 

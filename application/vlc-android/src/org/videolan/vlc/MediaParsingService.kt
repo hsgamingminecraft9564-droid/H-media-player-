@@ -103,7 +103,7 @@ import org.videolan.vlc.util.Util
 import org.videolan.vlc.util.cleanupWatchNextList
 import org.videolan.vlc.util.scanAllowed
 
-private const val TAG = "VLC/MediaParsingService"
+private const val TAG = "HMP/MediaParsingService"
 
 class MediaParsingService : LifecycleService(), DevicesDiscoveryCb {
 
